@@ -13,6 +13,8 @@ How to create a new admin app based on an existing REST API.
 
 Have to enable cookies to get to the dashboard.  
 
+[Live Link](https://jdegand.github.io/test-react-admin)
+
 ![](react-admin-users.png)
 ![](react-admin-posts.png)
 
