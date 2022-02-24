@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/test-react-admin/static/js/main.b732b8a2.js",
+    "static/js/787.379c4d20.chunk.js": "/test-react-admin/static/js/787.379c4d20.chunk.js",
+    "index.html": "/test-react-admin/index.html",
+    "main.b732b8a2.js.map": "/test-react-admin/static/js/main.b732b8a2.js.map",
+    "787.379c4d20.chunk.js.map": "/test-react-admin/static/js/787.379c4d20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b732b8a2.js"
+  ]
+}
