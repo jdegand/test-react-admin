@@ -4,14 +4,10 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-  - [Takeaways](#takeaways)
+- [Takeaways](#takeaways)
 - [Useful Resources](#useful-resources)
 
 ## Overview
-
-How to create a new admin app based on an existing REST API.
-
-Have to enable cookies to get to the dashboard.  
 
 [Live Link](https://jdegand.github.io/test-react-admin)
 
@@ -23,29 +19,23 @@ Have to enable cookies to get to the dashboard.
 - React
 - React-Admin
 
-### Takeaways
+## Takeaways
 
+- Have to enable cookies to get to the dashboard.  
 - Admin component is the root component of a react-admin app.
 - Admin expects a dataProvider prop which is a function that fetches data from an api.
 - Resource defines the react components to use for each CRUD operation.
 - By default, react-admin displays the list page of the first resource element as homepage.
-
 - ListGuesser is not for production and should be replaced with a custom component.
 - Check the console to get a basic structure for that custom component. 
-
 - Pass an array of input components to the list filters prop to enable filtering.
-
 - Edit / Creating you will see the change before the api sends the post request.  Can undo within ~5 seconds.
-
 - React admin makes no assumption about your authentication strategy.  Whatever it is -> pass it to the authProvider prop.
 - authProvider calls are asynch.
-
 - Writing to a Data Provider is the probably the first thing you'll have to do to make react-admin work. 
 - You will have problems with headers.  
-
 - Working thru the tutorial reminded me of Airtable.  
-
-- React-admin 4.0 is coming soon and there seems to be a lot of breaking changes under the hood so I may have return to this later.   
+- React-admin 4.0 is coming soon and there seems to be a lot of breaking changes under the hood so I may have to return to this later.   
 
 ## Useful Resources
 
